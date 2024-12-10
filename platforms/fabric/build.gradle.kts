@@ -18,8 +18,8 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
  */
 
 plugins {
-    id("fabric-loom") version "1.4.1"
-    id("net.kyori.blossom")
+    id("fabric-loom")
+    id("net.kyori.blossom") version "2.1.0"
 }
 
 val transitiveInclude: Configuration by configurations.creating {
